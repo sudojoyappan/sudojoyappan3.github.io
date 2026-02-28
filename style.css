@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
 /* --- BRAND COLORS & VARIABLES --- */
 :root {
     --yimin-blue: #152238;
@@ -98,9 +100,17 @@ nav {
     display: flex; align-items: center; justify-content: center;
     text-align: center; color: var(--white); padding: 60px 24px;
 }
-.hero-inner { max-width: 750px; }
-.hero h1 { font-size: clamp(2.2rem, 6vw, 4rem); margin-bottom: 20px; line-height: 1.1; }
-.hero p { font-size: clamp(1rem, 2.5vw, 1.25rem); margin-bottom: 35px; opacity: 0.9; }
+.hero-inner { max-width: 900px; }
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(3rem, 9vw, 7.5rem);
+    font-weight: 900;
+    line-height: 1.0;
+    letter-spacing: -2px;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+}
+.hero p { font-size: clamp(1rem, 2.5vw, 1.2rem); margin-bottom: 38px; opacity: 0.85; font-weight: 400; }
 .hero span { color: var(--beige); }
 
 /* COUNTERS */
@@ -285,6 +295,7 @@ footer p { margin-bottom: 5px; font-size: 0.9rem; }
     .section-padding { padding: 45px 0; }
 
     .hero { min-height: 75vh; padding: 50px 20px; }
+    .hero h1 { letter-spacing: -1px; }
 
     .counters-section { padding: 36px 16px; }
     .counters { flex-wrap: wrap; }
