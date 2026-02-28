@@ -13,9 +13,13 @@
             <img src="brandlogo.png" alt="Zero Stories Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
             <span class="logo-fallback">ZERO STORIES</span>
         </div>
+        
         <div class="menu-toggle" id="mobileMenuBtn">
-            <svg viewBox="0 0 24 24" width="32" height="32" fill="white"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+            <svg viewBox="0 0 24 24" width="35" height="35" fill="white">
+                <path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/>
+            </svg>
         </div>
+
         <div class="nav-links" id="navLinks">
             <button onclick="showPage('home')" class="active">Home</button>
             <button onclick="showPage('about')">About Us</button>
@@ -26,23 +30,29 @@
         </div>
     </nav>
 
-    <!-- HOME -->
     <div id="home" class="page-section active">
         <header class="hero">
-            <div class="hero-inner">
+            <div class="container">
                 <h1>From Zero to <span>Remarkable</span></h1>
                 <p>We build digital identities for businesses that deserve a big voice.</p>
-                <a href="https://wa.me/919072175281?text=Hi,%20I%20am%20interested%20in%20your%20services.%20May%20I%20know%20more?" target="_blank" class="btn-alt">Get Your Free Consultation</a>
+                <a href="https://wa.me/919072175281?text=Hi,%20I%20am%20interested%20in%20your%20services.%20May%20I%20know%20more?" target="_blank" class="btn-alt" style="display:inline-block; padding:15px 30px;">Get Your Free Consultation</a>
             </div>
         </header>
 
-        <div class="counters-section">
-            <div class="counters">
-                <div class="counter-item"><h3 data-target="10">0</h3><p>Projects Done</p></div>
-                <div class="counter-item"><h3 data-target="15">0</h3><p>Happy Clients</p></div>
-                <div class="counter-item"><h3 data-target="100">0</h3><p>Creatives Made</p></div>
+        <section class="counters container">
+            <div class="counter-item">
+                <h3 data-target="10">0</h3>
+                <p>Projects Completed</p>
             </div>
-        </div>
+            <div class="counter-item">
+                <h3 data-target="15">0</h3>
+                <p>Clients</p>
+            </div>
+            <div class="counter-item">
+                <h3 data-target="100">0</h3>
+                <p>Creatives</p>
+            </div>
+        </section>
 
         <section class="brands-section">
             <h2 class="brands-title">Awesome Brands We Work With</h2>
@@ -55,6 +65,7 @@
                 <img src="DIAMOND_AVL_PRO.png" class="brand-logo zoom-in" alt="Diamond AVL Pro">
                 <img src="Arema_logo.png" class="brand-logo zoom-in" alt="Arema">
                 <img src="Neon_plain_logo.jpeg" class="brand-logo" alt="Neon">
+                
                 <img src="ROASTER_LOGO.png" class="brand-logo zoom-in" alt="Roaster">
                 <img src="SUN_AUTOTECH_LOGO_NEW.png" class="brand-logo" alt="Sun Autotech">
                 <img src="Landmark-Developers-02.jpg" class="brand-logo" alt="Landmark Developers">
@@ -71,53 +82,53 @@
             <div class="services-grid">
                 <div class="service-card">
                     <h3>Social Media Mgmt</h3>
-                    <p>Complete handling of your digital presence — from strategy to scheduling and growth.</p>
+                    <p>Complete handling of your digital presence.</p>
                 </div>
                 <div class="service-card">
                     <h3>Promo Videos</h3>
-                    <p>Cinematic visuals that connect with audiences and convert viewers into customers.</p>
+                    <p>Cinematic visuals that connect and convert.</p>
                 </div>
                 <div class="service-card">
                     <h3>Poster Bundles</h3>
-                    <p>Weekly impactful designs for consistent visibility and brand recognition.</p>
+                    <p>Weekly impactful designs for consistent visibility.</p>
                 </div>
             </div>
         </section>
 
         <section class="section-padding bg-beige">
             <div class="container">
-                <h2 class="text-center" style="text-transform:uppercase;font-size:0.82rem;letter-spacing:3px;font-weight:700;margin-bottom:50px;">What People Say</h2>
+                <h2 class="text-center" style="text-transform: uppercase;">What People Say</h2>
                 <div class="testimonial-slider">
                     <div class="testimonial-card">
                         <p>"Zero Stories transformed our local shop into a recognized brand online."</p>
-                        <h4>— Client A</h4>
+                        <h4>- Client A</h4>
                     </div>
                     <div class="testimonial-card">
                         <p>"The video production quality is unmatched. Truly remarkable work."</p>
-                        <h4>— Client B</h4>
+                        <h4>- Client B</h4>
                     </div>
                     <div class="testimonial-card">
                         <p>"Consistent, creative, and professional. Highly recommended."</p>
-                        <h4>— Client C</h4>
+                        <h4>- Client C</h4>
                     </div>
                 </div>
             </div>
         </section>
     </div>
 
-    <!-- ABOUT -->
     <div id="about" class="page-section">
-        <header class="page-header">
+        <header class="bg-blue section-padding text-center">
             <h1>About Us</h1>
-            <p>Journeying the timeline from Zero to Remarkable.</p>
+            <p style="color:var(--beige)">Journeying the timeline from Zero to Remarkable.</p>
         </header>
         <section class="container section-padding">
-            <div class="text-center" style="max-width:800px;margin:0 auto;">
+            <div class="text-center" style="max-width: 800px; margin: 0 auto;">
                 <h2>The Zero Story</h2>
-                <blockquote style="font-size:1.1rem;font-style:italic;border-left:4px solid var(--yimin-blue);padding-left:20px;text-align:left;margin:28px 0;color:var(--charcoal);">"Every small business deserves a big voice. In a town where digital presence was zero, we decided to light the first spark."</blockquote>
+                <p>"Every small business deserves a big voice. In a town where digital presence was zero, we decided to light the first spark."</p>
                 <p>With just an idea and a phone camera, we started crafting stories. Today, we are a full-fledged creative agency dedicated to transforming local dreams into digital legends.</p>
             </div>
-            <h2 class="text-center" style="margin-top:60px;">Meet The Founder</h2>
+            
+            <h2 class="text-center" style="margin-top: 60px;">Meet The Founder</h2>
             <div class="founder-grid">
                 <div class="founder-card">
                     <img src="asfal2.jpg" alt="Asfal Ansari">
@@ -128,11 +139,9 @@
         </section>
     </div>
 
-    <!-- SERVICES -->
     <div id="services" class="page-section">
-        <header class="page-header">
+        <header class="bg-blue section-padding text-center">
             <h1>Our Services</h1>
-            <p>Everything your brand needs to grow online.</p>
         </header>
         <section class="container section-padding">
             <div class="services-grid">
@@ -152,88 +161,105 @@
         </section>
     </div>
 
-    <!-- WORKS -->
     <div id="works" class="page-section">
-        <header class="page-header">
+        <header class="bg-blue section-padding text-center">
             <h1>Our Works</h1>
-            <p>Swipe to explore our projects.</p>
+            <p>Scroll horizontally to explore our projects.</p>
         </header>
+        
         <section class="portfolio-full-width">
             <div class="portfolio-wrapper horizontal-scroll">
                 <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=400&h=300&fit=crop" class="portfolio-img" alt="Local Brand Rebrand">
-                    <div class="portfolio-info"><h3>Local Brand Rebrand</h3><p>Full social media overhaul and video campaign.</p></div>
+                    <img src="https://via.placeholder.com/400x300?text=Project+1" class="portfolio-img" alt="Project">
+                    <div class="portfolio-info">
+                        <h3>Local Brand Rebrand</h3>
+                        <p>Full social media overhaul and video campaign.</p>
+                    </div>
                 </div>
                 <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1574717024453-354056afd6fc?w=400&h=300&fit=crop" class="portfolio-img" alt="Product Launch">
-                    <div class="portfolio-info"><h3>Product Launch</h3><p>Cinematic promotional video series.</p></div>
+                    <img src="https://via.placeholder.com/400x300?text=Project+2" class="portfolio-img" alt="Project">
+                    <div class="portfolio-info">
+                        <h3>Product Launch</h3>
+                        <p>Cinematic promotional video series.</p>
+                    </div>
                 </div>
                 <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=400&h=300&fit=crop" class="portfolio-img" alt="Event Coverage">
-                    <div class="portfolio-info"><h3>Event Coverage</h3><p>High-energy poster and reel package.</p></div>
+                    <img src="https://via.placeholder.com/400x300?text=Project+3" class="portfolio-img" alt="Project">
+                    <div class="portfolio-info">
+                        <h3>Event Coverage</h3>
+                        <p>High-energy poster and reel package.</p>
+                    </div>
                 </div>
                 <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=300&fit=crop" class="portfolio-img" alt="Corporate Identity">
-                    <div class="portfolio-info"><h3>Corporate Identity</h3><p>Logo design and brand guidelines.</p></div>
+                    <img src="https://via.placeholder.com/400x300?text=Project+4" class="portfolio-img" alt="Project">
+                    <div class="portfolio-info">
+                        <h3>Corporate Identity</h3>
+                        <p>Logo design and brand guidelines.</p>
+                    </div>
                 </div>
-                <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" class="portfolio-img" alt="Digital Campaign">
-                    <div class="portfolio-info"><h3>Digital Campaign</h3><p>SEO and ad management.</p></div>
+                 <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300?text=Project+5" class="portfolio-img" alt="Project">
+                    <div class="portfolio-info">
+                        <h3>Digital Campaign</h3>
+                        <p>SEO and ad management.</p>
+                    </div>
                 </div>
-                <div class="portfolio-item">
-                    <img src="https://images.unsplash.com/photo-1553484771-371a605b060b?w=400&h=300&fit=crop" class="portfolio-img" alt="Tech Startup">
-                    <div class="portfolio-info"><h3>Tech Startup</h3><p>Website and promo bundle.</p></div>
+                 <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300?text=Project+6" class="portfolio-img" alt="Project">
+                    <div class="portfolio-info">
+                        <h3>Tech Startup</h3>
+                        <p>Website and promo bundle.</p>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
 
-    <!-- BLOG -->
     <div id="blog" class="page-section">
-        <header class="page-header">
+        <header class="bg-blue section-padding text-center">
             <h1>Blog</h1>
-            <p>Insights, stories, and strategies from our team.</p>
         </header>
         <section class="container section-padding">
             <div class="blog-grid">
                 <article class="blog-post">
-                    <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=400&h=200&fit=crop" class="blog-post-img" alt="Blog 1">
+                    <img src="https://via.placeholder.com/400x200" style="width:100%" alt="Blog 1">
                     <div class="blog-content">
                         <span class="blog-date">Oct 10, 2025</span>
                         <h3>Why Your Business Needs Video in 2025</h3>
                         <p>Video content is king. Here is how to leverage it for local growth.</p>
-                        <a href="#">Read More &rarr;</a>
+                        <a href="#" style="color:var(--yimin-blue); font-weight:bold">Read More &rarr;</a>
                     </div>
                 </article>
                 <article class="blog-post">
-                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=200&fit=crop" class="blog-post-img" alt="Blog 2">
+                    <img src="https://via.placeholder.com/400x200" style="width:100%" alt="Blog 2">
                     <div class="blog-content">
                         <span class="blog-date">Sep 22, 2025</span>
                         <h3>From Zero to Remarkable: A Case Study</h3>
                         <p>How we helped a local bakery increase footfall by 300%.</p>
-                        <a href="#">Read More &rarr;</a>
+                        <a href="#" style="color:var(--yimin-blue); font-weight:bold">Read More &rarr;</a>
                     </div>
                 </article>
             </div>
         </section>
     </div>
 
-    <!-- CONTACT -->
     <div id="contact" class="page-section">
-        <section class="container contact-page">
+        <section class="container section-padding" style="padding-top: 100px;">
             <h1 class="contact-heading">Let's start a<br>conversation!</h1>
+            
             <div class="contact-layout">
                 <div class="contact-info-card">
                     <div class="info-block">
                         <h4>Call us @</h4>
                         <p>+91 9072175281</p>
-                        <p>+91 81 299 08 666</p>
                     </div>
+                    
                     <div class="info-block">
                         <h4>Office Address @</h4>
-                        <p style="color:var(--yimin-blue);font-weight:600;font-size:0.88rem;margin-bottom:6px;">Headquarters</p>
-                        <p style="font-size:0.95rem;line-height:1.6;">1st Floor, Methikalam Arcade,<br>Shornur Road,<br>Palakkad, Kerala 678006</p>
+                        <p style="color: var(--yimin-blue); font-weight: 600; font-size: 1rem; margin-top: 10px;">Headquarters :</p>
+                        <p style="font-size: 0.95rem;">Palakkad</p>
                     </div>
+                    
                     <div class="info-block">
                         <h4>Mail us @</h4>
                         <p>info.zerostories@gmail.com</p>
@@ -241,37 +267,45 @@
                 </div>
 
                 <div class="contact-form-wrapper">
-                    <p class="form-subheading">Whether you have questions or you would just like to say hello 😊</p>
+                    <p class="form-subheading">Whether you have questions or<br>you would just like to say hello 😊</p>
+                    
                     <form action="https://formsubmit.co/info.zerostories@gmail.com" method="POST">
-                        <input type="text" name="Name" placeholder="* Your name" required>
-                        <input type="tel" name="Phone" placeholder="* Your phone number" required>
-                        <input type="email" name="Email" placeholder="* Your email" required>
+                        
+                        <input type="text" name="Name" placeholder="*let us know your name" required>
+                        <input type="tel" name="Phone" placeholder="*your phone number here" required>
+                        <input type="email" name="Email" placeholder="*enter your email" required>
+                        
                         <select name="Position" required>
-                            <option value="" disabled selected>* Your position</option>
+                            <option value="" disabled selected>*your position</option>
                             <option value="founder">Founder / CEO</option>
                             <option value="marketing">Marketing Manager</option>
                             <option value="other">Other</option>
                         </select>
-                        <input type="text" name="Company" placeholder="* Your company name">
+                        
+                        <input type="text" name="Company" placeholder="*your company name">
+                        
                         <select name="Service_Enquiry" required>
-                            <option value="" disabled selected>* Enquiry on</option>
+                            <option value="" disabled selected>*enquiry on</option>
                             <option value="social">Social Media Mgmt</option>
                             <option value="video">Video Package</option>
                             <option value="poster">Poster Bundle</option>
                             <option value="other">Other</option>
                         </select>
-                        <textarea name="Message" rows="5" placeholder="* Your message here..." required></textarea>
+                        
+                        <textarea name="Message" rows="5" placeholder="*type here your message" required></textarea>
+                        
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_subject" value="New Lead from Zero Stories Website!">
-                        <div class="form-submit-row">
+
+                        <div style="text-align: right;">
                             <button type="submit" class="btn-main">Send Message</button>
                         </div>
                     </form>
                 </div>
             </div>
 
-            <div class="faq-section">
-                <h3>Frequently Asked Questions</h3>
+            <div style="margin-top: 80px; max-width: 800px;">
+                <h3 style="margin-bottom: 30px;">Frequently Asked Questions</h3>
                 <div class="faq-item">
                     <div class="faq-question">What is included in the Video Package? <span>+</span></div>
                     <div class="faq-answer">It includes 12 promo videos (one per month) covering scripting, shooting, and editing.</div>
@@ -296,93 +330,128 @@
         </div>
     </footer>
 
-    <!-- FLOATING WIDGET -->
     <div class="chat-widget-container" id="chatWidgetContainer">
+        
         <div class="floating-menu" id="floatingMenu">
+            
             <a href="https://wa.me/919072175281" target="_blank" class="menu-item whatsapp-btn">
                 <span class="menu-label">WhatsApp</span>
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+                </svg>
             </a>
+            
             <a href="tel:+919072175281" class="menu-item phone-btn">
-                <span class="menu-label">Call Us</span>
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                <span class="menu-label">Phone</span>
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                </svg>
             </a>
+
         </div>
+
         <div class="floating-widget" id="chatToggleBtn" title="Contact Us">
             <div class="floating-chat-btn">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg>
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+                </svg>
             </div>
         </div>
     </div>
 
     <script>
-        // Mobile Menu Toggle
+        // 1. Mobile Menu Toggle Logic
         const mobileMenuBtn = document.getElementById('mobileMenuBtn');
         const navLinksContainer = document.getElementById('navLinks');
-        mobileMenuBtn.addEventListener('click', () => navLinksContainer.classList.toggle('show-menu'));
 
-        // Page Switching
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinksContainer.classList.toggle('show-menu');
+        });
+
+        // 2. Page Switching Logic
         function showPage(pageId) {
-            document.querySelectorAll('.page-section').forEach(s => s.classList.remove('active'));
+            const sections = document.querySelectorAll('.page-section');
+            sections.forEach(section => section.classList.remove('active'));
             document.getElementById(pageId).classList.add('active');
-            document.querySelectorAll('.nav-links button').forEach(btn => {
+            
+            const navButtons = document.querySelectorAll('.nav-links button');
+            navButtons.forEach(btn => {
                 btn.classList.remove('active');
-                if (btn.getAttribute('onclick').includes(pageId)) btn.classList.add('active');
+                if(btn.getAttribute('onclick').includes(pageId)) {
+                    btn.classList.add('active');
+                }
             });
+            
             navLinksContainer.classList.remove('show-menu');
             window.scrollTo(0, 0);
         }
 
-        // Animated Counters
+        // 3. Animated Counters Logic
+        const counters = document.querySelectorAll('.counter-item h3');
         let hasCounted = false;
         function startCounting() {
             if (hasCounted) return;
             hasCounted = true;
-            document.querySelectorAll('.counter-item h3').forEach(counter => {
+            counters.forEach(counter => {
                 const target = +counter.getAttribute('data-target');
-                const increment = target / 80;
-                const update = () => {
-                    const c = parseFloat(counter.innerText.replace('+', '')) || 0;
-                    if (c < target) { counter.innerText = Math.ceil(c + increment) + '+'; setTimeout(update, 18); }
-                    else counter.innerText = target + '+';
+                const increment = target / 100;
+                
+                const updateCount = () => {
+                    let currentRawText = counter.innerText.replace('+', '');
+                    const c = parseFloat(currentRawText) || 0;
+                    
+                    if (c < target) {
+                        counter.innerText = Math.ceil(c + increment) + '+';
+                        setTimeout(updateCount, 20);
+                    } else {
+                        counter.innerText = target + '+';
+                    }
                 };
-                update();
+                updateCount();
             });
         }
         window.onload = startCounting;
 
-        // Portfolio horizontal scroll (mouse wheel)
+        // 4. Scroll Logic (Smart Trackpad + Mouse)
         const scrollContainer = document.querySelector('.horizontal-scroll');
-        if (scrollContainer) {
-            scrollContainer.addEventListener('wheel', (evt) => {
-                if (Math.abs(evt.deltaX) > Math.abs(evt.deltaY)) return;
-                evt.preventDefault();
-                scrollContainer.scrollLeft += evt.deltaY;
-            }, { passive: false });
-        }
+        scrollContainer.addEventListener('wheel', (evt) => {
+            if (Math.abs(evt.deltaX) > Math.abs(evt.deltaY)) {
+                return; 
+            }
+            evt.preventDefault();
+            scrollContainer.scrollLeft += evt.deltaY;
+        });
 
-        // FAQ Toggle
-        document.querySelectorAll('.faq-item').forEach(item => {
+        // 5. FAQ Toggle
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
             item.addEventListener('click', () => {
                 item.classList.toggle('open');
-                item.querySelector('span').innerText = item.classList.contains('open') ? '-' : '+';
+                const span = item.querySelector('span');
+                if(item.classList.contains('open')) {
+                    span.innerText = '-';
+                } else {
+                    span.innerText = '+';
+                }
             });
         });
 
-        // Floating Widget
+        // 6. FLOATING WIDGET TOGGLE LOGIC
         const chatToggleBtn = document.getElementById('chatToggleBtn');
         const floatingMenu = document.getElementById('floatingMenu');
         const chatWidgetContainer = document.getElementById('chatWidgetContainer');
+
         chatToggleBtn.addEventListener('click', () => {
             floatingMenu.classList.toggle('active');
             chatWidgetContainer.classList.toggle('open');
-        });
-        document.addEventListener('click', (e) => {
-            if (!chatWidgetContainer.contains(e.target)) {
-                floatingMenu.classList.remove('active');
-                chatWidgetContainer.classList.remove('open');
+            
+            if (chatWidgetContainer.classList.contains('open')) {
+                chatToggleBtn.setAttribute('title', 'Hide');
+            } else {
+                chatToggleBtn.setAttribute('title', 'Contact Us');
             }
         });
     </script>
+
 </body>
 </html>
